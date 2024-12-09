@@ -1,12 +1,15 @@
 import React from "react";
-import Header from "./pages/header";
-
-export default function Main() {
+import Main from "./pages/main";
+import Genres from "./pages/genres";
+import Trending from "./pages/trending";
+export default function MainPage() {
 
      
 
     return (
-        <Header></Header>
+        <div>
+           <Main></Main>
+        </div>
     );
 
 
