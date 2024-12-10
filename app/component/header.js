@@ -9,10 +9,10 @@ export default function Header() {
                 <p className="hover:underline cursor-pointer">Home</p>
                 </Link>
                
-                <Link href=".screens/trending">
+                <Link href="/trending">
                     <p className="hover:underline cursor-pointer">Trending</p>
                 </Link>
-                <Link href=".screens/genres">
+                <Link href="/genres">
                     <p className="hover:underline cursor-pointer">Genres</p>
                 </Link>
             </h1>
